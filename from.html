@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+
+<body>
+    <style>
+        form p>label {
+            display: inline-block;
+            width: 100px;
+        }
+
+        form input[type="text"],
+        form textarea {
+            border: 1px solid #197a43;
+        }
+
+        form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
+
+    <header>
+        <h1>Membuat From</h1>
+    </header>
+    <div>
+        <div>
+            <form action="proses.php" method="post">
+                <fieldset>
+                    <legend>Data Pelanggan</legend>
+                    <p>
+                    <table for="nama">Nama</table>
+                    <input type="text" id="nama" name="nama">
+                    </p>
+                    <p>
+                    <table for="alamat">Alamat</table>
+                    <textarea id="alamat" name="Alamat" cols="20" rows="3"></textarea>
+                    </p>
+                    <p>
+                    <table>Jenis Kelamin</table>
+                    <input id="jk_l" type="radio" name="kelamin" value="L">
+                    <label for="jk_l">Laki-Laki</label>
+                    <input id="jk_p" type="radio" name="kelamin" value="P">
+                    <label for="jk_p">Perempuan</label>
+                    </p>
+                    <p>
+                        <input type="submit" value="Login">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
