@@ -84,7 +84,7 @@ Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorder
 
 ![Description List](asset/img/Description_List.png)
 
-# Selanjutnya lakukan eksperimen lain terkait list dan penggunaan atribut type pada list.
+ Selanjutnya lakukan eksperimen lain terkait list dan penggunaan atribut type pada list.
 
 ## 4. Membuat tabel
 
