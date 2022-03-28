@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Lanjutan</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -22,39 +24,61 @@
 
         form input[type="submit"] {
             border: 1px solid #197a43;
-            background-color: #197a43;
+            background-color: #73ff00;
             color: #ffffff;
             font-weight: bold;
             padding: 5px 15px;
         }
     </style>
-
     <header>
-        <h1>Membuat From</h1>
+        <h1>Login Mahasiswa</h1>
     </header>
+    <img src="LOGO UPB.png" alt="LOGO upb" style="width:200px;height:175px;">
     <div>
         <div>
             <form action="proses.php" method="post">
                 <fieldset>
-                    <legend>Data Pelanggan</legend>
+                    <legend>Input Data Mahasiswa</legend>
                     <p>
                     <table for="nama">Nama</table>
                     <input type="text" id="nama" name="nama">
                     </p>
                     <p>
-                    <table for="alamat">Alamat</table>
-                    <textarea id="alamat" name="Alamat" cols="20" rows="3"></textarea>
+                    <table for="nim">NIM</table>
+                    <input type="number">
                     </p>
                     <p>
-                    <table>Jenis Kelamin</table>
+                    <table for="password">Password</table>
+                    <input type="password">
+                    </p>
+                    <table></table>
+                    <label for="">J.K</label>
                     <input id="jk_l" type="radio" name="kelamin" value="L">
                     <label for="jk_l">Laki-Laki</label>
                     <input id="jk_p" type="radio" name="kelamin" value="P">
                     <label for="jk_p">Perempuan</label>
-                    </p>
-                    <p>
-                        <input type="submit" value="Login">
-                    </p>
+                    <br><br>
+                    <label for="jurusan">Jurusan DropDwon</label>
+                    <br> 
+                    <select name="jurusan" id="jurusan">
+                        <option value="" selected="selected">--Pilih Jurusan Teknik--</option>
+                        <option value="informatika">Teknik Informatika</option>
+                        <option value="lingkungan">Teknik Lingkungan</option>
+                        <option value="industri">Teknik Industri</option>
+                    </select>
+                    <br>
+                    <label for="jurusan02">Jurusan Bisnis multiple selection</label>
+                    <br>
+                    <select name="bisnis" id="bisnis" multiple>
+                        <option value="" selected="selected">--Pilih Jurusan Bisnis--</option>
+                        <option value="akutansi">Akuntansi</option>
+                        <option value="manajemen">Manajemen</option>
+                        <option value="digital">Bisnis Digital</option>
+                    </select>
+                    <br>
+                    <table for="alamat">Alamat</table>
+                    <textarea id="alamat" name="Alamat" cols="20" rows="3"></textarea>
+                    <input type="submit" value="Login">
                 </fieldset>
             </form>
         </div>

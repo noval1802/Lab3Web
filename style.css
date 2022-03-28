@@ -1,0 +1,56 @@
+body {
+  margin: 2% auto;
+  width: 40%;
+  font-family: arial;
+  font-size: 17px;
+  line-height: 25px;
+  background-image: url(asset/img/background.png);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo {
+  width: 110px;
+}
+
+form {
+  background-color: rgba(252, 252, 252, 0.425);
+}
+
+form > label {
+  display: inline-block;
+  width: 100px;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  border: 1px solid #000000;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+form input[type="submit"] {
+  border: 5px solid #000000;
+  background-color: #007c1f;
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+select {
+  width: 100%;
+  height: 40px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 14px;
+  background-color: rgb(255, 255, 255);
+}
+
+#jurusan {
+  height: 30px;
+}

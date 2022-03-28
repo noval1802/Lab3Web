@@ -271,3 +271,13 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut. <br>
 </style>
 ```
 ![style form](asset/img/style_form.png)
+
+## Pertanyaan Tugas
+<hr>
+
+## 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+
+*HTML*
+![finish_HTML](asset/img/finish.png)
+*CSS*
+![finish_CSS](asset/img/finish_CSS.png)
