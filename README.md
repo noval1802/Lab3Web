@@ -1,5 +1,8 @@
 # <b>Langkah-Langkah Praktikum 3 <hr>
-
+|Abdul Aziz Anaoval|
+|-------|
+|312010049|
+|TI.20.A.1|
 ## 1. Membuat dokumen HTML dengan nama file lab 3 list HTML
 
 ```html
@@ -281,3 +284,5 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut. <br>
 ![finish_HTML](asset/img/finish.png)
 *CSS*
 ![finish_CSS](asset/img/finish_CSS.png)
+
+#  *SEKIAN*
